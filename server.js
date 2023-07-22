@@ -6,7 +6,7 @@
 * 
 *  Name: Stephanie Rose Calma      Student ID: 124746223      Date: July 22, 2023
 *
-*  Online (Cyclic) Link: ________________________________________________________
+*  Online (Cyclic) Link: https://teal-determined-hedgehog.cyclic.app/
 *
 ********************************************************************************/
 
@@ -27,7 +27,6 @@ app.engine('hbs', exphbs.engine({
     defaultLayout: 'main',
     helpers: {
         navLink: function (url, target, options) {
-            // If "target" is not provided, adjust the arguments
             if (typeof target === 'object') {
                 options = target;
                 target = undefined;
@@ -160,17 +159,6 @@ app.post('/students/add', (req, res) => {
         });
 });
 
-/*app.post("/student/update", (req, res) => {
-    collegeData.updateStudent(req.body)
-        .then(() => {
-            res.redirect("/students");
-        })
-        .catch((error) => {
-            console.error("Error updating student:", error);
-            res.redirect("/students");
-        });
-});*/
-
 app.post("/student/update", (req, res) => {
     const studentData = {
         studentNum: parseInt(req.body.studentNum),
@@ -180,7 +168,7 @@ app.post("/student/update", (req, res) => {
         addressStreet: req.body.addressStreet,
         addressCity: req.body.addressCity,
         addressProvince: req.body.addressProvince,
-        TA: req.body.TA === "on", // Convert checkbox value to boolean
+        TA: req.body.TA === "on", 
         status: req.body.status,
         course: parseInt(req.body.course),
     };
