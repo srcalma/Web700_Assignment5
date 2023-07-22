@@ -1,0 +1,200 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #20e097;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #0cd61c;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+  
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #1d1616;
+}
+  
+.nav-link:hover {
+    color: #038569;
+}
+
+html, body {
+    background: #0cf192; /* fallback color */
+    background: linear-gradient( to bottom, #0cf192, #07f1de);
+    overflow: auto;
+    height: 100%;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+  
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #007bff;
+}
+  
+a:hover {
+    color: #0056b3;
+}
+
+legend {
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+  
+/* About.html */
+
+.about-section h2 {
+    margin-top: 50px;
+}
+
+.about-section h6 {
+    margin: 20px 0;
+}
+
+.about-section section:first-of-type h4 {
+    margin-top: 50px;
+}
+
+.about-section section p {
+    margin: 20px 0;
+}
+
+/* htmlDemo.html*/
+
+.demo h2 {
+    margin-top: 50px;
+}
+
+.demo h3 {
+    margin-top: 50px;
+}
+
+.demo h4 {
+    margin-top: 20px;
+}
+
+.demo h5 {
+    margin-top: 20px;
+}
+
+.demo p {
+    margin: 20px 0;
+}
+
+.demo table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.demo th {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.demo td {
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.demo tr:nth-child(even) {
+    background-color: #dfecb0;
+}
+  
+.demo tr:nth-child(odd) {
+    background-color: #faa9e0;
+}
+  
+.demo caption {
+    text-align: center;
+    font-size: 12px;
+}
+  
+.demo tfoot {
+    font-style: italic;
+}
+
+.demo ul {
+    margin: 20px 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.demo li {
+    margin: 5px 0;
+}
+
+.demod1 {
+    margin-bottom: 20px;
+    display: flex;
+}
+.demo figure {
+    text-align: center;
+}
+
+.demo figcaption {
+    font-size: 12px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 315px;
+}
+
+/*Home.html*/
+
+.home h2 {
+    margin-top: 50px;
+}
+  
+.home h4 {
+    margin: 20px 0;
+    text-decoration: underline;
+}
+  
+.home h5 {
+    margin: 20px 0;
+}
+
+.home p {
+    margin: 20px 0;
+}
+
+.home footer {
+    margin: 50px 0;
+    font-family: cursive;
+}  
